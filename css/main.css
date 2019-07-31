@@ -3,11 +3,8 @@
 
 body{
   margin-left: 0 auto;
-
   font-family: 'Righteous', cursive;
 }
-
-
 
 #mainNav{
   background-color: black;
@@ -15,15 +12,14 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 #mainNav ul{
   color: white;
-  margin-right: 50px;
-  margin-top: 60px;
   text-decoration: none;
   display: inline;
+  margin-top: 60px;
+  margin-right: 30px;
 }
 
 #mainNav ul a{
@@ -41,8 +37,6 @@ body{
   display: inline;
   padding: 10px;
   margin: 0 10px 0 0;
-
-
 }
 
 #title{
@@ -69,44 +63,117 @@ body{
   font-family: 'Overpass', sans-serif;
 }
 
+#gui { width: 420px; }
+
+
+/* Carousel Images */
+
+/* .slider {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-slider {
+      width: 100%;
+			height: 420px;
+			overflow: hidden;
+			position: absolute;
+			z-index: 0;
+			opacity: 0;
+			transition: all .7s ease-in-out;
+			transform: scale(.8);
+}
+
+img { width: 100%; } */
+
+
+.carousel-container {
+  width: 420px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* #carousel-slider {
+  display: flex;
+  width: 400px;
+  height: 400px;
+} */
+
+.carousel-container figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+@keyframes slider{
+  0%{
+      left:0;
+  }
+  20%{
+      left:0;
+  }
+  25%{
+    left:-101%;
+  }
+  45%{
+    left:-101%;
+  }
+ 50%{
+    left:-201%;
+  }
+ 70%{
+    left:-201%;
+  }
+ 75%{
+    left:-303%;
+  }
+ 95%{
+    left:-303%;
+  }
+ 100%{
+    left:-400%;
+  }
+}
+
+/* .showing {
+  opacity: 1;
+  z-index: 1;
+  transform: none;
+} */
+
 #teamTitle{
-  margin: 0 20px 0 20px;
+  /* margin: 0 20px 0 20px; */
   font-family: 'Righteous', cursive;
   margin-top: 200px;
   font-size: 50px;
   text-align: center;
 }
 
-#teamMembers h2{
+#teamMembers h2 {
+  text-align: center;
   width: 400px;
 }
 
-#teamMembers img{
+#teamMembers img {
   padding: 10px;
   background-color: black;
   width: 400px;
   box-shadow: 10px 10px 20px -8px rgba(133,131,133,1);
 }
 
-.buttons{
+button {
+  display: block;
+  width: 400px;
+  height: 60px;
   margin: 5px 0 5px 0;
   text-align: center;
   padding: 2px;
   background-color: black;
   color: white;
   font-size: 20px;
-}
-
-.button:hover{
-  cursor: pointer !important;
-}
-
-.button h2:hover{
-  cursor: pointer !important;
-}
-
-.buttons h2{
-  margin:5px;;
+  font-family: 'Overpass', sans-serif;
 }
 
 #Contact{
@@ -125,7 +192,6 @@ body{
 
 #Contact img:hover{
   cursor: pointer;
-
 }
 
 .mediaIcons{
