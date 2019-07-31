@@ -9,34 +9,53 @@
 </head>
 <body>
   <main id="wrapper">
+
+    <!-- Header Starts Here -->
     <nav id="mainNav">
       <h1 id="title">Team Awesome</h1>
       <ul>
-        <a href="#"><li>Home</li></a>
-        <a href="#teamMembers"><li>Our Team</li></a>
-        <a href="#Contact"><li>Social Media</li></a>
+        <li><a href="#">Home</a></li>
+        <li><a href="#teamMembers">Our Team</a></li>
+        <li><a href="#Contact">Social Media</a></li>
       </ul>
-
-
     </nav>
+<!-- Header Ends Here -->
+<!-- Member 1 Bio starts -->
     <section id="teamMembers">
     <section id="gui">
-      <img src="images/GuiPhoto1.jpg" alt="This is Gui">
-      <div class="guitext"><h2>Professional: I'm Gui, and I'm a coder, currently studying on Fanshawe's Interactive Media Design. Personally, I like very much to work on applications and interesting and diffeent Java Script applications. Not a big fan of designing, even though I'm the Designer of this website!      Personal: I like to play basketball and jiu-jitsu, actually, I'm currently a blue belt. I also like very much to make craft beer with my father.
-      </h2></div>
-      <div class="buttons" id="guiProfButton"><h2>Professional</h2></div>
-      <div class="buttons" id="guiPersButton"><h2>Personal</h2></div>
-
-    </section>
+      <div id="carousel-container">
+        <div id="carousel-slider">
+      <img src="images/GuiPhoto1.jpg" alt="Gui1">
+      <!-- <img src="images/GuiPhoto2.jpg" alt="Gui2">
+      <img src="images/GuiPhoto3.jpg" alt="Gui3">
+      <img src="images/GuiPhoto4.png" alt="Gui4"> -->
+      
+     </div>
+      </div>
+      <div class="guiText">
+        <h2>Hi! I'm Gui. Click buttons below to see my information!</h2>
+      </div>
+      <div id="guiBut">
+      <button data-arrayref="0">Professional</button>
+      <button data-arrayref="1">Personal</button>
+      </div>
+</section>
+<!-- Member 1 Bio Ends-->
     <h2 id="teamTitle">This is Our Team!</h2>
+<!-- Member 2 Bio Starts-->
     <section id="stella">
-      <img src="" alt="">
-      <div id="stellatext"></div>
-      <div></div>
-      <div></div>
-
+      <img src="images/stellaPhoto1.png" alt="It's Stella">
+      <div id="stellaText">
+        <h2>Hello! I'm Stella. Click buttons below if you want to see my Bio!</h2>
+      </div>
+      <div id="stellaBut">
+      <button data-arrayref="0">Professional</button>
+      <button data-arrayref="1">Personal</button>
+    </div>
     </section>
-    </section>
+  </section>
+<!-- Member 2 Bio Ends --> 
+<!--Footer Starts -->
     <section id="Contact">
       <h1>Talk To Us</h1>
       <div id="icons">
@@ -47,7 +66,9 @@
       <a href="http://whatsapp.com"><img class="mediaIcons" src="images/whatsapp.svg" alt="Whatsapp"></a>
       </div>
     </section>
+<!-- Footer Ends -->
   </main>
-
+  <script src="js/main.js"></script>
 </body>
+
 </html>
