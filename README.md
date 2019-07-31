@@ -1,4 +1,4 @@
-#Dynamic Team Page with array function!
+# Dynamic Team Page with array function!
 
 Project Description
 This project is a dynamic bio page with array function in javascript also use HTML, CSS to do our own design. 
