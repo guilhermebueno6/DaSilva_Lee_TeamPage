@@ -104,7 +104,7 @@ img { width: 100%; } */
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinite;
+  animation: 16s slider infinite;
 }
 
 @keyframes slider{
@@ -121,10 +121,10 @@ img { width: 100%; } */
     left:-101%;
   }
  50%{
-    left:-201%;
+    left:-202%;
   }
  70%{
-    left:-201%;
+    left:-202%;
   }
  75%{
     left:-303%;
